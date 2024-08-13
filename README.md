@@ -26,9 +26,9 @@ $ pip install -r requirements.txt
 #### Help
 ```bash
 $ ./arrows -h
-usage: arrow [-h] [-n NUMBER] [-s SYMBOLS [SYMBOLS ...]] [-f FILLERS [FILLERS ...]]
+usage: arrows [-h] [-n NUMBER] [-s SYMBOLS [SYMBOLS ...]] [-f FILLERS [FILLERS ...]]
 
-Print an arrow to stdout.
+Print arrows to stdout.
 
 options:
   -h, --help            show this help message and exit
@@ -42,7 +42,7 @@ options:
 
 #### Example
 ```bash
-$ ./arrow -n 3 -s '*' '#' -f ' ' '.'
+$ ./arrows -n 3 -s '*' '#' -f ' ' '.'
 ########################## 0 ##########################
 symbol: '*', filler: ' '  | symbol: '#', filler: '.'  |
 ------------------------- | ------------------------- |
